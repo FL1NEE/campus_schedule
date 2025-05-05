@@ -26,7 +26,7 @@ def scrape_schedule():
     return RESPONSE.text
 
 def parse_schedule(html_content, target_date):
-    soup = BeautifulSoup(html_content, 'html.parser')
+    soup = BeautifulSoup(html_content, 'lxml')
     
     # Выбираем десктопную таблицу
     table = soup.find('table', class_='brstu-table', attrs={'class': ['brstu-table', 'd-none', 'd-md-block']})
