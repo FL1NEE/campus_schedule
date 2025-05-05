@@ -1,3 +1,7 @@
+Установка:
+git clone https://github.com/FL1NEE/campus_schedule/tree/main/knitu_parser
+pip install -r requirements.txt
+
 Кодовые обозначения  институтов
 
 ИХТИ - 210
